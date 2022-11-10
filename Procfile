@@ -1,0 +1,1 @@
+api: hypercorn quotes --reload --debug --bind quotes.local.gd:$PORT --access-logfile - --error-logfile - --log-level DEBUG
